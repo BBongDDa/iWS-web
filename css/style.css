@@ -9556,9 +9556,6 @@ textarea.form-control {
   width: 75%;
   max-width: none;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 .textcenterbox{
   margin: 0 auto;
