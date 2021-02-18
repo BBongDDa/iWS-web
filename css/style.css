@@ -9547,7 +9547,7 @@ textarea.form-control {
     }
 
 #index-main-text{
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .index-mini-text{
   font-size: 1.5rem !important;
@@ -9558,6 +9558,14 @@ textarea.form-control {
 }
 html {
   scroll-behavior: smooth;
+}
+
+.textcenterbox{
+  margin: 0 auto;
+}
+.fixlogo{
+  position: fixed; bottom: 80px; right: 50px; z-index: 1;
+  width: 5rem;
 }
 
 @media (max-width:1024px){
@@ -9571,6 +9579,10 @@ html {
     color: white !important;
     font-weight: 500;
   }
+  .fixlogo{
+    position: fixed; bottom: 55px; right: 20px; z-index: 1;
+    width: 4rem;
+  }
   .container{
     width: 90%;
   }
@@ -9583,6 +9595,15 @@ html {
   }
   #ftco-navbar{
     height: auto;
+  }
+  #displaynonemob{
+    display: none !important;
+  }
+  .testimony-wrap .text {
+    width: 90%;
+    height: auto;
+    padding: 1%;
+    margin: 0 auto;
   }
   .ftco-navbar-light{
     background-color: rgba(0, 0, 0, 0.822) !important;
